@@ -8,7 +8,7 @@ class burgerBuilder extends Component {
         ingredients: {
             salad: 1,
             meat: 3,
-            cheese: 1,
+            cheese: 2,
         }
     }
     render () {
