@@ -1,4 +1,4 @@
-.Burger {
+.BurgerContainer {
     width: 100%;
     height: 250px;
     margin: auto;
@@ -8,25 +8,43 @@
     font-size: 1.2rem;
     background-color: #202125;
     border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Burger {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 500px) and (min-height: 400px) {
-    .Burger {
+    .BurgerContainer {
         width: 350px;
         height: 300px;
     }
 }
 
 @media (min-width: 500px) and (min-height: 401px) {
-    .Burger {
+    .BurgerContainer {
         width: 450px;
         height: 400px;
     }
 }
 
 @media (min-width: 1000px) and (min-height: 700px) {
-    .Burger {
+    .BurgerContainer {
         width: 700px;
-        height: 600px;
+        height: 500px;
     }
 }
